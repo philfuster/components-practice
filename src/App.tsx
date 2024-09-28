@@ -3,7 +3,7 @@ import {
 	Comments,
 	CommentsWithHeaderAndFooter,
 	CommentsWithOwnListItem,
-} from "./components/CommentsList/Comments";
+} from "./components/Comments/Comments";
 
 function App() {
 	return (

@@ -25,7 +25,9 @@ const Comments = () => {
 const CommentsWithOwnListItem = () => {
 	return (
 		<List<Comment> items={comments}>
-			{({ item }) => <li key={item.id}>{`${item.content} - y33t`}</li>}
+			{({ item }) => (
+				<li key={item.id}>{`${item.content} - custom list item`}</li>
+			)}
 		</List>
 	);
 };
@@ -37,7 +39,12 @@ const CommentsWithHeaderAndFooter = () => {
 			header={<h1>My Comments Header</h1>}
 			footer={<span>My Comments Footer</span>}
 		>
-			{({ item, ListItem }) => <ListItem {...item} key={item.id} />}
+			{({ item }) => (
+				<li
+					{...item}
+					key={item.id}
+				>{`${item.content} - provided header & footer`}</li>
+			)}
 		</List>
 	);
 };
