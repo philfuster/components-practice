@@ -1,4 +1,5 @@
 import "./App.css";
+import Button from "./components/Button/Button";
 import {
 	Comments,
 	CommentsWithHeaderAndFooter,
@@ -11,6 +12,9 @@ function App() {
 			<Comments />
 			<CommentsWithOwnListItem />
 			<CommentsWithHeaderAndFooter />
+			<Button borderRadius={28} onClick={() => console.log("clicked")}>
+				interesting
+			</Button>
 		</>
 	);
 }
