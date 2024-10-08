@@ -12,9 +12,9 @@ function App() {
 			<Comments />
 			<CommentsWithOwnListItem />
 			<CommentsWithHeaderAndFooter />
-			<Button borderRadius={28} onClick={() => console.log("clicked")}>
-				interesting
-			</Button>
+			<Button />
+			<Button variant="secondary" />
+			<Button variant="tertiary" />
 		</>
 	);
 }
