@@ -1,5 +1,6 @@
 import type { DetailedHTMLProps, HTMLAttributes } from "react";
 import type { Remap } from "../../shared/utilityTypes";
+import "./styles.css";
 
 // #region local type definitions
 interface ContainerProps extends NativeContainerProps {
