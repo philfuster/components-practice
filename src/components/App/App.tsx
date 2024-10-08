@@ -1,10 +1,10 @@
 import "./App.css";
-import Button from "./components/Button/Button";
+import Button from "../Button/Button";
 import {
 	Comments,
 	CommentsWithHeaderAndFooter,
 	CommentsWithOwnListItem,
-} from "./components/Comments/Comments";
+} from "../Comments/Comments";
 
 function App() {
 	return (
