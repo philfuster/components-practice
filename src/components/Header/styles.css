@@ -1,0 +1,15 @@
+@layer layout {
+	.header-container {
+		grid-area: header;
+	}
+	.nav-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		padding: 0 1rem;
+		li {
+			list-style: none;
+		}
+	}
+}
