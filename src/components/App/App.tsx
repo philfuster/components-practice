@@ -1,16 +1,16 @@
 import "./App.css";
 import Button from "../Button/Button";
 import { CommentsWithHeaderAndFooter } from "../Comments/Comments";
-import Container from "../Container/Container";
+import AppContainer from "./AppContainer/AppContainer";
 
 function App() {
 	return (
-		<Container>
+		<AppContainer>
 			<CommentsWithHeaderAndFooter />
 			<Button />
 			<Button variant="secondary" />
 			<Button variant="tertiary" />
-		</Container>
+		</AppContainer>
 	);
 }
 
