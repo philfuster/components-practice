@@ -1,6 +1,7 @@
-@layer reset, defaults, patterns, components, utilities, overrides;
+@layer reset, defaults, patterns, layout, components, utilities, overrides;
 
 @import "./reset.css";
+@import "./layout.css";
 
 :root {
 	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

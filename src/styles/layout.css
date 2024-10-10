@@ -1,0 +1,11 @@
+@layer layout {
+	.layout-grid {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: [header-start] 4rem [header-end] [main-start] 1fr [main-end];
+		grid-template-areas:
+			"header"
+			"main";
+		min-height: 100%;
+	}
+}
