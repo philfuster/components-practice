@@ -3,7 +3,7 @@ import type { Remap } from "../../shared/utilityTypes";
 import "./styles.css";
 
 // #region local type definitions
-interface ContainerProps extends NativeContainerProps {
+export interface ContainerProps extends NativeContainerProps {
 	children: React.ReactNode;
 	className?: string;
 }
